@@ -20,13 +20,13 @@ namespace _111_1MID
         {
             for (int c = 0; c < s_IdSet.Length; c++)
             {
-                if(tb_Account.Text == s_IdSet[c] && tb_Account.Text == "")
+                if(tb_Account.Text == s_IdSet[c] && tb_Account.Text != "")
                 {
                     btn_Submit.Visible = true;
                     lb_Type.Text = "複診";
                     break;
                 }
-                else if(tb_Account.Text != s_IdSet[c] && tb_Account.Text == "")
+                else if(tb_Account.Text != s_IdSet[c] && tb_Account.Text != "")
                 {
                     btn_Submit.Visible = true;
                     lb_Type.Text = "初診";
