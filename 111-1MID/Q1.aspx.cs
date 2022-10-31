@@ -33,7 +33,6 @@ namespace _111_1MID
                 }
                 else
                 {
-                    btn_Submit.Visible = true;
                     lb_Type.Text = "初診";
                 }
             }
