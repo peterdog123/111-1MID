@@ -36,6 +36,7 @@ namespace _111_1MID
                     lb_Type.Text = "初診";
                 }
             }
+            //判斷Testbox裡面輸入的數值是否等於變數，假如等於初診改為複診，假如不等於依然是初診
             p1_Msg.Visible = false;
         }
 
@@ -51,6 +52,6 @@ namespace _111_1MID
             {
                 lb_Msg.Text += lb_Type.Text + "<br />" + tb_Account.Text + "先生/小姐，已完成掛號。" + "<br />" + "連絡電話為" + tb_Phone.Text + "<br />" + "<br />";
             }
-        }
+        }//依題目需求
     }
 }
